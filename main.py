@@ -218,7 +218,7 @@ async def removing_todo(update, context):
 
 
 
-app = ApplicationBuilder().token("6095063608:AAFMINb5r5Ros9Fx8oJVvRlW-pZGbDkdzkI").build()
+app = ApplicationBuilder().token("#your-token").build()
 conv_handler = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
         states={
